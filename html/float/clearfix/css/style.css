@@ -1,0 +1,35 @@
+@charset "UTF-8";
+html {
+  font-size: 62.5%;
+}
+body {
+  background: #f0f8ff;
+}
+.menu {
+  padding: 100px 0px;
+  border:solid 1px;
+  width: 20%;
+  height: 70px;
+  box-sizing: border-box;
+  float: left;
+}
+.wrap {
+  max-width: calc(1280/1920*100%);
+  margin: 50px auto;
+  font-size: 2rem;
+  text-align: center;
+}
+.header {
+  background: #e6e6fa;
+  padding: 5rem 0;
+}
+.footer {
+  background: #add8e6;
+  padding: 5rem 0;
+}
+.clearfix::after {
+  content:"";
+  display:block;
+  clear:both;
+}
+/*以下に自身でcssを記載する*/
