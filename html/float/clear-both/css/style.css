@@ -5,9 +5,23 @@ html {
 body {
   background: #f0f8ff;
 }
-* {
+.menu {
+  border:solid 1px;
   box-sizing: border-box;
+  padding: 70px 0px;
+  height: 50px;
+  width: 20%;
+  float: left;
 }
+.menu2 {
+  border: solid 1px;
+  box-sizing: border-box;
+  padding: 70px 0px;
+  height: 50px;
+  width: 20%;
+  float: right;
+}
+
 .wrap {
   max-width: calc(1280/1920*100%);
   margin: 50px auto;
@@ -21,6 +35,14 @@ body {
 .footer {
   background: #add8e6;
   padding: 5rem 0;
+}
+
+.clearboth {
+  clear: both;
+}
+
+.floatright {
+  float: right;
 }
 
 /*以下に自身でcssを記載する*/
