@@ -49,14 +49,34 @@ a {
 /* 問題はここから */
 
 /* 問題1.要素を横並びにしてください。 */
-
+.flex {
+  display: flex;
+}
 /* 問題2.要素をHTMLを変えずに逆に並ぶようにしてください。 */
-
+.flex2 {
+  flex-direction: row-reverse;
+}
+.flex2 li:last-child {
+  margin-right: 10px;
+}
 /* 問題3.要素を両端に配置してください。 */
-
+.flex3 {
+  display:flex;
+  justify-content: space-between;
+}
 /* 問題4.item17で折り返してください。 */
-
+.flex4 {
+  display: flex;
+  flex-wrap: wrap;
+}
+.flex4 li:nth-child(5) {
+  margin-right: 0;
+}
 /* 問題5.要素を水平、垂直方向に中央揃えしてください。 */
 .flex5 {
-  height: 600px;
+  display: flex;
+  height: 1000px;
+  width: 1000px;
+  justify-content: center;
+  align-items: center;
 }
