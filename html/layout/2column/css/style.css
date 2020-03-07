@@ -1,0 +1,38 @@
+@charset "utf-8";
+body {
+  background: #f0f8ff;
+}
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.wrap {
+  max-width: calc(1280/1920*100%);
+  margin: 0 auto;
+  font-size: 20px;
+  text-align: center;
+}
+.header {
+  background: #8e97e788;
+  padding: 50px 0;
+}
+.main {
+  float: left;
+  background: #fa8072;
+  height: 600px;
+  width: 70%;
+  line-height: 600px;
+}
+.main2 {
+  float: left;
+  background: #570080;
+  height: 600px;
+  width: 30%;
+  line-height: 600px;
+  box-sizing: border-box;
+}
+.footer {
+  background: #add8e6;
+  padding: 50px 0;
+}
