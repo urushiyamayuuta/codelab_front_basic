@@ -1,0 +1,18 @@
+.wrap {
+  display: inline-block;
+  display: flex;
+  text-align: center;
+  width: 655px;
+  margin-top: 50px;
+  margin-left: 150px;
+}
+.nav ul {
+  background: red;
+  width: 150px;
+  height: 85px;
+}
+.column {
+  background: skyblue;
+  margin-top: 10px;
+  height: 65px;
+}
