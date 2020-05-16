@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>フォーム</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<form method="POST" action="">
+  <p>お問い合わせ</p>
+<table border="1">
+  <tr>
+    <th>お名前</th>
+    <td><input type="text"　name="name" size="50"></td>
+  </tr>
+  <tr>
+    <th>ご住所</th>
+    <td><input type="text"　name="addres" size="50"></td>
+  </tr>
+  <tr>
+    <th>性別</th>
+    <td>
+      <input type="radio" name="seibetsu" value="male" checked>男性
+    　<input type="radio" name="seibetsu" value="female">女性
+    </td>
+  </tr>
+  <tr>
+    <th>お問い合わせ種別</th>
+    <td>
+      <select name="syubetsu">
+      <option value="資料請求">資料請求</option>
+      </select>
+    </td>
+  </tr>
+  <tr>
+    <th>ご希望の連絡方法<br>（複数選択可)</th>
+    <td>
+      <input type="checkbox" name="rennraku" value="MAIL">メール
+      <input type="checkbox" name="rennraku" value="TEL">電話
+      <input type="checkbox" name="rennraku" value="VISIT">訪問
+    </td>
+  </tr>
+  <tr>
+    <th>お問い合わせ内容</th>
+    <td>
+      <textarea type="text"　name="naiyou" rows="10" cols="40"></textarea>
+    </td>
+  </tr>
+  <input type="submit" value="送信" style="position: relative; top: 400px;">
+</table>
+</form>
+</body>
+</html>

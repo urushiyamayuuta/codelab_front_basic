@@ -1,0 +1,15 @@
+body {
+  width: 100%;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+td {
+  width: 250px;
+}
+
+tr {
+  width: 250px;
+}

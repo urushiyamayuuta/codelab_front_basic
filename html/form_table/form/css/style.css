@@ -1,0 +1,25 @@
+body {
+  width: 100%;
+  text-align: center;
+}
+
+table {
+  border-collapse: collapse;
+  margin-left:auto;
+  margin-right: auto;
+  text-align: left;
+  resize: none;
+}
+
+input[type="submit"] {
+  width: 200px;
+  height: 50px;
+  font-size: 30px;
+  text-decoration: none;
+  background: skyblue;
+  color: #fff;
+}
+
+th {
+  background: #b9b9b9;
+}
