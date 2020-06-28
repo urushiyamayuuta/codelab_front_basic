@@ -1,0 +1,43 @@
+.body {
+  width: 1366px;
+}
+
+p {
+  font-size: 20px;
+}
+
+div {
+  margin-left: 150px;
+}
+
+.menu {
+  text-align: left;
+}
+
+.main * {
+  float: right;
+  padding: 0 15px;
+}
+
+.img {
+  width: 1366px;
+  height: 600px;
+}
+
+.text-1 p{
+  display: inline-block;
+  width: 500px;
+}
+
+.text-2　{
+  float: left;
+}
+
+.img-1 {
+  height: 400px;
+  width: 500px;
+}
+
+.footer {
+  margin-left: 550px;
+}
