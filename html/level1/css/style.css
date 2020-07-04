@@ -10,13 +10,18 @@ div {
   margin-left: 150px;
 }
 
-.menu {
+.header {
   text-align: left;
 }
 
-.main * {
-  float: right;
-  padding: 0 15px;
+ul {
+  list-style-type: none;
+  text-align: right;
+}
+
+li {
+  display: inline;
+  padding-left: 10px;
 }
 
 .img {
@@ -24,13 +29,14 @@ div {
   height: 600px;
 }
 
-.text-1 p{
+.text p{
   display: inline-block;
   width: 500px;
 }
 
-.text-2　{
+.picture　{
   float: left;
+  margin: 0 auto;
 }
 
 .img-1 {
@@ -38,6 +44,10 @@ div {
   width: 500px;
 }
 
+.navi {
+  margin: 0 auto;
+}
+
 .footer {
-  margin-left: 550px;
+  text-align: center;
 }
