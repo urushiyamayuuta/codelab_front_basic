@@ -1,7 +1,6 @@
 .body {
   max-width: 1440px;
-  min-width: 1200px;
-  max-height: 2900px;
+  clear: none;
 }
 
 .side {
@@ -11,6 +10,7 @@
   width: 20%;
   height: 3200px;
   background: rgb(47, 47, 148);
+  clear: none;
 }
 
 .clearfix::after {
@@ -91,27 +91,7 @@ h3 {
   font-size: 20px;
 }
 
-.img4 {
-  width: 180px;
-  height: 200px;
-}
-
-.img5 {
-  width: 180px;
-  height: 200px;
-}
-
-.img6 {
-  width: 180px;
-  height: 200px;
-}
-
-.img7 {
-  width: 180px;
-  height: 200px;
-}
-
-.img8 {
+.img4, .img5, .img6, .img7, .img8 {
   width: 180px;
   height: 200px;
 }
@@ -121,17 +101,7 @@ h3 {
   padding-left: 25%;
 }
 
-.img9 {
-  width: 300px;
-  height: 200px;
-}
-
-.img10 {
-  width: 300px;
-  height: 200px;
-}
-
-.img11 {
+.img9, .img10, .img11 {
   width: 300px;
   height: 200px;
 }
@@ -141,22 +111,7 @@ h3 {
   padding-left: 25%;
 }
 
-.img12 {
-  width: 220px;
-  height: 200px;
-}
-
-.img13 {
-  width: 220px;
-  height: 200px;
-}
-
-.img14 {
-  width: 220px;
-  height: 200px;
-}
-
-.img15 {
+.img12, .img13, .img14, .img15 {
   width: 220px;
   height: 200px;
 }
