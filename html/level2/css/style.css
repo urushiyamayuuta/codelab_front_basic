@@ -1,6 +1,5 @@
 .body {
   max-width: 1440px;
-  clear: none;
 }
 
 .side {
@@ -8,48 +7,49 @@
   text-align: center;
   float: left;
   width: 20%;
-  height: 3200px;
+  height: 3000px;
   background: rgb(47, 47, 148);
-  clear: none;
 }
 
-.clearfix::after {
-  content: "";
-  display: block;
-  clear: both;
+.menu b {
+  font-size: 30px;
 }
 
 .menu {
-  display: inline-block;
-  padding: 20px 80px;
+  width: 100px;
+  height: 100px;
   line-height: 50px;
   text-align: left;
+  margin: 0 auto;
 }
 
 .menu :last-child{
   color: yellow;
 }
 
-h2 {
-  font-size: 40px;
-}
-
-.head {
+.header-top {
   padding-left: 25%;
 }
 
-.head p {
-  width: 650px;
+.header p {
+  width: 80%;
   height: 200px;
   line-height: 30px;
 }
 
 .main1 {
   float: left;
+  width: 80%;
 }
 
 .img1 {
-  width: 1000px;
+  width: 80%;
+}
+
+.img2 {
+  padding: 30px;
+  width: 50px;
+  height: 50px;
 }
 
 .sub {
@@ -60,16 +60,14 @@ h2 {
   padding-left: 20px;
 }
 
+.sub b {
+  font-size: 30px
+}
+
 .sub2 {
   width: 550px;
   height: 40px;
   line-height: 40px;
-}
-
-h3 {
-  font-size: 30px;
-  position: relative;
-  bottom: 25px;
 }
 
 .button {
@@ -86,41 +84,42 @@ h3 {
   padding-left: 50px;
 }
 
-.gallery1 {
-  padding-left: 25%;
-  font-size: 20px;
+.gallery1, .gallery2, .gallery3{
+  width: 100%;
+}
+
+b {
+  width: 80%;
+  font-size: 30px;
+  padding-left:50px;
+}
+
+.img4, .img9, .img12 {
+  padding-left: 50px;
 }
 
 .img4, .img5, .img6, .img7, .img8 {
-  width: 180px;
+  width: calc(100% 1/5);
   height: 200px;
-}
-
-.gallery2 {
-  font-size: 25px;
-  padding-left: 25%;
 }
 
 .img9, .img10, .img11 {
-  width: 300px;
+  width: 335px;
   height: 200px;
 }
 
-.gallery3 {
-  font-size: 30px;
-  padding-left: 25%;
-}
-
 .img12, .img13, .img14, .img15 {
-  width: 220px;
+  width: 250px;
   height: 200px;
 }
 
 .form {
   padding-left: 25%;
+  width: 80%;
+  color: aqua;
 }
 
-.form h4 {
+.form b{
   font-size: 20px;
 }
 
@@ -133,7 +132,7 @@ h3 {
   top: 130px;
 }
 
-.form1 {
+.form-side {
   width: 300px;
   line-height: 40px;
   position: relative;
@@ -142,9 +141,8 @@ h3 {
 }
 
 .footer {
-  position: relative;
-  bottom: 200px;
-  left: 70px;
+width: 80%;
+  text-align: center;
 }
 
 .span {
