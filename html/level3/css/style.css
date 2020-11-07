@@ -1,0 +1,76 @@
+body {
+  text-align: center;
+  background: url(../img\ 4/bg_tekusu.jpg)
+}
+
+.header {
+  background: #858585;
+  width: 100%;
+  height: 100px;
+
+}
+
+.header div {
+  display: inline-block;
+}
+
+.title, .sns {
+  width: 49%;
+}
+
+section {
+  display: flex;
+  flex-flow: row;
+  height: 1000px;
+  width: 980px;
+}
+
+main {
+  flex: 0 0 580px;
+  order: 2;
+  text-align: left;
+}
+
+.img1 {
+  width: 570px;
+  height: 300px;
+}
+
+.sidebar {
+  flex: 0 0 200px;
+  order: 1;
+  text-align: left;
+  margin-left: 350px;
+}
+
+.sidebar li{
+  width: 120px;
+  background: white;
+  list-style-type: none;
+  margin-bottom: 5px;
+}
+
+.sidebar2 {
+  flex: 0 0 200px;
+  order: 3;
+  text-align: left;
+}
+
+.queston li {
+  width: 150px;
+  background: white;
+  list-style-type: none;
+  margin-bottom: 5px;
+}
+
+.rank li, .rank h2{
+  width: 150px;
+  background: white;
+  list-style-type: none;
+  margin-bottom: 5px;
+}
+
+.footer {
+  background: #858585;
+  height: 130px;
+}
