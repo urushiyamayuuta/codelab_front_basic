@@ -1,13 +1,26 @@
 body {
   text-align: center;
-  background: url(../img\ 4/bg_tekusu.jpg)
+  background: url(../img\ 4/bg_tekusu.jpg);
+
 }
 
 .header {
   background: #858585;
+  position: relative;
   width: 100%;
   height: 100px;
+  margin-bottom: 15px;
+}
 
+.header::after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 10px;
+  left: 0.1px;
+  bottom: -10px;
+  background: url(../img\ 4/bg_giza.png)repeat-x;
+  background-position: 0 -19px;
 }
 
 .header div {
@@ -15,7 +28,35 @@ body {
 }
 
 .title, .sns {
-  width: 49%;
+  width: 40%;
+}
+
+.sns li {
+  display: inline-block;
+  height: 33px;
+  width: 32px;
+  vertical-align: bottom;
+  line-height: 1.6em;
+  background-image: url(../img\ 4/sprite.png);
+  background-repeat: no-repeat;
+}
+
+.sns li {
+  transition: 0.3s;
+}
+
+.sns li:nth-child(1){
+  background-position: 0 0;
+}
+.sns li:nth-child(1):hover{
+  background-position: 0 -33px;
+}
+
+.sns li:nth-child(2){
+  background-position: -32px 0;
+}
+.sns li:nth-child(2):hover{
+  background-position: -32px -33px;
 }
 
 section {
@@ -43,11 +84,35 @@ main {
   margin-left: 350px;
 }
 
-.sidebar li{
-  width: 120px;
+.sidebar h3::before {
+  display: inline-block;
+  content: "";
+  vertical-align: bottom;
+  width: 32px;
+  height: 32px;
+  background: url(../img\ 4/sprite.png)no-repeat;
+  background-position: -64px -32px;
+}
+
+.sidebar li, .sidebar h3{
+  width: 150px;
   background: white;
   list-style-type: none;
   margin-bottom: 5px;
+}
+
+.sidebar ul {
+  padding: 0;
+}
+
+.sidebar p:nth-child(2)::before {
+  display: inline-block;
+  content: "";
+  width: 32px;
+  height: 32px;
+  vertical-align: bottom;
+  background: url(../img\ 4/sprite.png)no-repeat;
+  background-position: -64px 0;
 }
 
 .sidebar2 {
@@ -57,20 +122,44 @@ main {
 }
 
 .queston li {
-  width: 150px;
+  width: 200px;
   background: white;
   list-style-type: none;
   margin-bottom: 5px;
 }
 
 .rank li, .rank h2{
-  width: 150px;
-  background: white;
+  width: 200px;
+  background-color: white;
   list-style-type: none;
-  margin-bottom: 5px;
+  margin-bottom: 2px;
+}
+
+.rank h2::before {
+  display: inline-block;
+  content: "";
+  vertical-align: bottom;
+  width: 32px;
+  height: 32px;
+  background: url(../img\ 4/sprite.png)no-repeat;
+  background-position: -96px 0;
 }
 
 .footer {
   background: #858585;
+  position: relative;
+  width: 100%;
   height: 130px;
+  margin-top: 15px;
+}
+
+.footer::after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 10px;
+  left: 0.1px;
+  top: -10px;
+  background: url(../img\ 4/bg_giza.png)repeat-x;
+  background-position: 0 -27px;
 }
