@@ -161,6 +161,11 @@ section {
   background-position: -96px 0;
 }
 
+.rank a, .sidebar a, .queston a {
+  text-decoration: none;
+  color: black;
+}
+
 .footer {
   background: #858585;
   color: white;
