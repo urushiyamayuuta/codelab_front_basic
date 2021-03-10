@@ -1,0 +1,288 @@
+@charset "utf-8";
+
+body {
+  text-align: center;
+  color: whitesmoke;
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  background: url(../img−5/slider_img.jpg) no-repeat;
+  width: 100%;
+  height: 600px;
+  text-align: left;
+  position: relative;
+}
+
+.about {
+  position: absolute;
+  top: 450px;
+  left: 130px;
+}
+
+.yoga {
+  position: absolute;
+  right: 100px;
+  top: 500px;
+}
+
+.title {
+  font-size: 50px;
+}
+.title, .subtitle {
+  position: relative;
+  top: 200px;
+  left: 200px;
+}
+
+.menu {
+  display: inline-block;
+  width: 270px;
+  height: 200px;
+  background-color: rgb(222, 101, 247);
+  position: absolute;
+  right: 250px;
+  top: 0;
+}
+.menu ul {
+  margin: 30px 80px 50px;
+}
+.menu a {
+  color: whitesmoke;
+  margin: 5px 0;
+}
+
+.main {
+  width: 500px;
+  height: 500px;
+  text-align: left;
+  color: black;
+}
+
+.yajirusi, .yajirusi1 {
+  position: relative;
+  left: 650px;
+}
+.main_a, .botan, .main_b{
+  position: relative;
+  left: 400px;
+  top: 100px;
+}
+
+.sub {
+  background: url(../img−5/feature_bg.png) no-repeat;
+  width: 100%;
+  height: 600px;
+}
+
+.sub1, .sub2, .sub3{
+  display: inline-block;
+  width: 350px;
+  margin: 50px 20px;
+}
+
+.corse, .sub1, .sub2, .sub3 {
+  position: relative;
+  top: 100px;
+}
+
+.sucalp {
+  margin: 100px 0;
+}
+
+.program1, .program2, .program3, .program4, .program5, .program6 {
+  display: inline-block;
+  width: 400px;
+}
+
+.sucalp h2, .sucalp p {
+  padding: 0;
+  margin: 0;
+  width: 300px;
+  background-color: blueviolet;
+  position: relative;
+  bottom: 30px;
+  left: 50px;
+}
+
+section {
+  width: 100%;
+  height: 650px;
+  background: url(../img−5/coaches_bg.jpg)no-repeat;
+}
+
+.maru {
+  background: -webkit-linear-gradient(left ,#8165a6, #d83f87) repeat scroll 0 0;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+}
+
+.maru1 {
+  background: -webkit-linear-gradient(left ,#8165a6, #d83f87) repeat scroll 0 0;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+}
+
+.maru2 {
+  background: -webkit-linear-gradient(left ,#8165a6, #d83f87) repeat scroll 0 0;
+  height: 180px;
+  width: 180px;
+  border-radius: 50%;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+}
+
+section {
+  width: 100%;
+  position: relative;
+}
+
+section img, section div {
+  display: inline-block;
+}
+
+.buruburu {
+  width: 1000px;
+}
+
+.maru {
+  position: absolute;
+  top: 150px;
+  left: 200px;
+}
+.gazou1 {
+  position: absolute;
+  top: 150px;
+  left: 320px;
+}
+.gazou2 {
+  position: absolute;
+  top: 100px;
+  left: 500px;
+}
+.gazou3 {
+  position: absolute;
+  top: 200px;
+  right: 530px;
+}
+.gazou4 {
+  position: absolute;
+  top: 200px;
+  right: 330px;
+}
+.maru1 {
+  position: absolute;
+  top: 200px;
+  right: 240px;
+}
+
+.gazou5 {
+  position: absolute;
+  bottom: 210px;
+  left: 180px;
+}
+.gazou6 {
+  position: absolute;
+  bottom: 135px;
+  left: 330px;
+}
+.gazou7 {
+  position: absolute;
+  bottom: 110px;
+  left: 550px;
+}
+.gazou8{
+  position: absolute;
+  bottom: 80px;
+  right: 350px;
+}
+.maru2 {
+  position: absolute;
+  bottom: 90px;
+  right: 510px;
+}
+.gazou9 {
+  position: absolute;
+  bottom: 110px;
+  right: 153px;
+}
+.gazou10 {
+  position: absolute;
+  bottom: 30px;
+  left: 170px;
+}
+
+.buruburu :hover{
+  -webkit-animation:buruburu 0.1s infinite linear alternate;
+  animation:buruburu 0.1s infinite linear alternate;
+}
+
+@-webkit-keyframes buruburu {
+  0% {-webkit-transform:translate(0, 0) rotate(-3deg);}
+  50% {-webkit-transform:translate(0, -1px) rotate(0deg);}
+  100% {-webkit-transform:translate(0, 0)rotate(3deg);}
+}
+
+@keyframes buruburu {
+  0% {transform:translate(0, 0) rotate(-3deg);}
+  50% {transform:translate(0, -1px) rotate(0deg);}
+  100% {transform:translate(0, 0)rotate(3deg);}
+}
+
+.footer_width {
+  position: relative;
+  padding-top: 100px;
+  background: -webkit-linear-gradient(left ,#8165a6, #d83f87) repeat scroll 0 0;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.footer_sample, .footer_link, .footer_contact {
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  text-align: left;
+  height: 600px;
+}
+
+.footer_sample {
+  width: 360px;
+  margin: 0px 80px;
+  color: black;
+}
+.footer_link {
+  margin-right: 100px;
+}
+.footer_link a {
+  color: whitesmoke;
+}
+.footer_link li {
+  margin: 5px 0;
+}
+
+.bacground_white {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: white;
+  width: 680px;
+  height: 450px;
+}
+
+.footer_width img {
+  position: absolute;
+  top: 100px;
+  left: 100px;
+  z-index: 3;
+}
