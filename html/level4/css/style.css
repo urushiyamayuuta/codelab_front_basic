@@ -3,8 +3,8 @@
 body {
   text-align: center;
   color: whitesmoke;
-  padding: 0;
   margin: 0;
+  background-color: rgb(224, 224, 224);
 }
 
 header {
@@ -13,6 +13,13 @@ header {
   height: 600px;
   text-align: left;
   position: relative;
+}
+
+.gyoen {
+  font-size: 40px;
+  position: absolute;
+  top: 10px;
+  left: 100px;
 }
 
 .about {
@@ -40,7 +47,7 @@ header {
   display: inline-block;
   width: 270px;
   height: 200px;
-  background-color: rgb(222, 101, 247);
+  background-color: rgb(223, 142, 182);
   position: absolute;
   right: 250px;
   top: 0;
@@ -49,25 +56,67 @@ header {
   margin: 30px 80px 50px;
 }
 .menu a {
+  text-decoration: none;
   color: whitesmoke;
   margin: 5px 0;
 }
 
 .main {
-  width: 500px;
-  height: 500px;
+  width: 1000px;
+  height: 400px;
   text-align: left;
   color: black;
+  background-color: white;
+  margin: 0 auto;
+}
+
+.main a {
+  text-decoration: none;
+}
+
+.main .button a {
+  color: white;
 }
 
 .yajirusi, .yajirusi1 {
   position: relative;
-  left: 650px;
+  left: 450px;
+  top: 50px;
 }
+
 .main_a, .botan, .main_b{
   position: relative;
-  left: 400px;
+  left: 50px;
   top: 100px;
+}
+
+.main_b {
+  font-size: 13px;
+}
+
+.button{
+  width:200px;
+  height:50px;
+  line-height:30px;
+}
+.button a{
+  background:#FF5CCF;
+  text-align:center;
+  color:#FFFFFF;
+  box-shadow:3px 5px 0px 0px #DE00D8 ;
+}
+.button a:hover{
+  background:#FF5CC5;
+  margin-left:3px;
+  margin-top:5px;
+  box-shadow:none;
+}
+
+.main .button a {
+  position: absolute;
+  bottom: -100px;
+  left: 250px;
+
 }
 
 .sub {
@@ -87,8 +136,19 @@ header {
   top: 100px;
 }
 
+.sub1 a, .sub2 a, .sub3 a {
+  position: absolute;
+  left: 130px;
+  text-decoration: none;
+  color: white;
+}
+
 .sucalp {
   margin: 100px 0;
+}
+
+.sucalp h1 {
+  color: gray;
 }
 
 .program1, .program2, .program3, .program4, .program5, .program6 {
@@ -100,7 +160,7 @@ header {
   padding: 0;
   margin: 0;
   width: 300px;
-  background-color: blueviolet;
+  background-color: #FF5CCF;
   position: relative;
   bottom: 30px;
   left: 50px;
@@ -114,20 +174,26 @@ section {
 
 .maru {
   background: -webkit-linear-gradient(left ,#8165a6, #d83f87) repeat scroll 0 0;
-  height: 100px;
-  width: 100px;
+  height: 130px;
+  width: 130px;
   border-radius: 50%;
   -moz-border-radius: 50%;
   -webkit-border-radius: 50%;
+  text-align: center;
+  line-height: 130px;
+  font-size: 20px;
 }
 
 .maru1 {
   background: -webkit-linear-gradient(left ,#8165a6, #d83f87) repeat scroll 0 0;
-  height: 100px;
-  width: 100px;
+  height: 120px;
+  width: 120px;
   border-radius: 50%;
   -moz-border-radius: 50%;
   -webkit-border-radius: 50%;
+  text-align: center;
+  line-height: 120px;
+  font-size: 20px;
 }
 
 .maru2 {
@@ -137,6 +203,9 @@ section {
   border-radius: 50%;
   -moz-border-radius: 50%;
   -webkit-border-radius: 50%;
+  text-align: center;
+  line-height: 180px;
+  font-size: 20px;
 }
 
 section {
@@ -154,69 +223,69 @@ section img, section div {
 
 .maru {
   position: absolute;
-  top: 150px;
-  left: 200px;
+  top: 80px;
+  left: 100px;
 }
 .gazou1 {
   position: absolute;
-  top: 150px;
-  left: 320px;
+  top: 80px;
+  left: 250px;
 }
 .gazou2 {
   position: absolute;
-  top: 100px;
-  left: 500px;
+  top: 30px;
+  left: 480px;
 }
 .gazou3 {
   position: absolute;
-  top: 200px;
-  right: 530px;
+  top: 110px;
+  right: 450px;
 }
 .gazou4 {
   position: absolute;
-  top: 200px;
-  right: 330px;
+  top: 100px;
+  right: 230px;
 }
 .maru1 {
   position: absolute;
-  top: 200px;
-  right: 240px;
+  top: 110px;
+  right: 110px;
 }
 
 .gazou5 {
   position: absolute;
-  bottom: 210px;
-  left: 180px;
+  bottom: 250px;
+  left: 130px;
 }
 .gazou6 {
   position: absolute;
-  bottom: 135px;
-  left: 330px;
+  bottom: 130px;
+  left: 300px;
 }
 .gazou7 {
   position: absolute;
-  bottom: 110px;
-  left: 550px;
+  bottom: 150px;
+  left: 530px;
 }
 .gazou8{
   position: absolute;
-  bottom: 80px;
-  right: 350px;
+  bottom: 120px;
+  right: 290px;
 }
 .maru2 {
   position: absolute;
-  bottom: 90px;
-  right: 510px;
+  bottom: 180px;
+  right: 480px;
 }
 .gazou9 {
   position: absolute;
-  bottom: 110px;
-  right: 153px;
+  bottom: 190px;
+  right: 80px;
 }
 .gazou10 {
   position: absolute;
-  bottom: 30px;
-  left: 170px;
+  bottom: 40px;
+  left: 100px;
 }
 
 .buruburu :hover{
@@ -225,15 +294,15 @@ section img, section div {
 }
 
 @-webkit-keyframes buruburu {
-  0% {-webkit-transform:translate(0, 0) rotate(-3deg);}
-  50% {-webkit-transform:translate(0, -1px) rotate(0deg);}
-  100% {-webkit-transform:translate(0, 0)rotate(3deg);}
+  0% {-webkit-transform:translateY(0);}
+  50% {-webkit-transform:translateY(-2px);}
+  100% {-webkit-transform:translateY(0);}
 }
 
 @keyframes buruburu {
-  0% {transform:translate(0, 0) rotate(-3deg);}
-  50% {transform:translate(0, -1px) rotate(0deg);}
-  100% {transform:translate(0, 0)rotate(3deg);}
+  0% {transform:translateY(0);}
+  50% {transform:translateY(2px);}
+  100% {transform:translateY(0);}
 }
 
 .footer_width {
@@ -265,6 +334,7 @@ ul {
   margin-right: 100px;
 }
 .footer_link a {
+  text-decoration: none;
   color: whitesmoke;
 }
 .footer_link li {
